@@ -5,6 +5,7 @@ list_spring=['3', '4', '5']
 list_summer=['6', '7', '8']
 list_autumn=['9', '10', '11']
 
+#Вариант1
 if (month in list_winter) == True:
     print('Зима')
 elif (month in list_spring) == True:
@@ -14,7 +15,7 @@ elif (month in list_summer) == True:
 elif (month in list_autumn) == True:
     print('Осень')
 
-
+#Вариант2
 dict={'1': 'Зима', '2': 'Зима', '12': 'Зима', '3': 'Весна', '4': 'Весна', '5': 'Весна', '6': 'Лето', '7': 'Лето', '8':'Лето', '9':'Осень', '10':'Осень', '11':'Осень'}
 
 print(dict[month])
